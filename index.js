@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import reader from "readline-sync";
 import dotenv from "dotenv";
 import chalk from "chalk";
