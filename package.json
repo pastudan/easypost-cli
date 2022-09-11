@@ -1,6 +1,6 @@
 {
   "name": "easypost-cli",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A CLI interface for accessing EasyPost APIs",
   "main": "index.js",
   "repository": "git@github.com:pastudan/easypost-cli.git",
