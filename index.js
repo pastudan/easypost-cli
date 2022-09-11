@@ -286,7 +286,7 @@ export async function newShipment() {
   let customs_info;
   if (from_address.country !== to_address.country) {
     line(
-      chalk.orange(
+      chalk.red(
         'Customs info required for international shipments. Please enter your "customs_info" ID:'
       )
     );
