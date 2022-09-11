@@ -251,6 +251,7 @@ export async function listShipments() {
 export async function newAddress() {
   return await new api.Address({
     name: reader.question("Name: ").trim(),
+    phone: reader.question("Phone (optional): ").trim(),
     company: reader.question("Company (optional): ").trim(),
     street1: reader.question("Street 1: ").trim(),
     street2: reader.question("Street 2: ").trim(),
